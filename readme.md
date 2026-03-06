@@ -1,5 +1,6 @@
 This is a python script to add a bunch of objects in a Path of Exile hideout in a formation. Currently it only supports Oriathan Child, but that is subject to change.
 
+"""
 --help:
 usage: hideout-generator.py [--help] [-p POINTS] [-h HEIGHT] [-w WIDTH] [-s SPACING] [-a] [-r ROTATION] [-l LAYERS] [--layer-step LAYER_STEP] [--layer-rotation LAYER_ROTATION]
                             [--shape {star,circle,spiral}] [--arms ARMS]
@@ -24,3 +25,4 @@ options:
   --shape {star,circle,spiral}
                         Shape to generate (default: star)
   --arms ARMS           Number of spiral arms (spiral only, default: 1)
+"""
