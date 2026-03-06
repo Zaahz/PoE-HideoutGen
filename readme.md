@@ -1,5 +1,7 @@
 This is a python script to add a bunch of objects in a Path of Exile hideout in a formation. Currently it only supports Oriathan Child, but that is subject to change.
 
+This also assumes that you are using Celestial Nebula Hideout, since that is the only thing I have tested it with.
+
 ```
 --help:
 usage: hideout-generator.py [--help] [-p POINTS] [-h HEIGHT] [-w WIDTH] [-s SPACING] [-a] [-r ROTATION] [-l LAYERS] [--layer-step LAYER_STEP] [--layer-rotation LAYER_ROTATION]
